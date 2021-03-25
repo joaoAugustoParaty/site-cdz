@@ -1,4 +1,4 @@
-function imgSlider(anything){
-    document.querySelector('.seiya').src = anything;
-}
 
+function imgSlider(anything){
+    document.querySelector('.seiya').src = anything
+}

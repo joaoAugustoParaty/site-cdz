@@ -165,13 +165,13 @@ text-decoration: none;
     align-items: center;
 }
 
-.content .textBox
+.content .textBox1
 {
     position: relative;
     max-width: 600px;
 }
 
-.content .textBox h2
+.content .textBox1 h2
 {
     color: #d97d26;
     font-size: 4em;
@@ -179,19 +179,19 @@ text-decoration: none;
     font-weight: 500;
 }
 
-.content .textBox h2 span
+.content .textBox1 h2 span
 {
     color: #ff0000;
     font-size: 1.2em;
     font-weight: 900;
 }
 
-.content .textBox p
+.content .textBox1 p
 {
     color: #d97d26;
 }
 
-.content .textBox a
+.content .textBox1 a
 {
     display: inline-block;
     margin-top: 20px;
@@ -214,6 +214,62 @@ text-decoration: none;
 }
 
 .content .imgBox img
+{
+    max-width: 400px;
+}
+
+/*__________DRAGÃO_________*/
+.content .textBox2
+{
+    position: relative;
+    max-width: 600px;
+    display: none;
+}
+
+.content .textBox2 h2
+{
+    color: #d97d26;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    
+}
+
+.content .textBox2 h2 span
+{
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox2 p
+{
+    color: #d97d26;
+}
+
+.content .textBox2 a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #ff0000;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .imgBox2
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox2 img
 {
     max-width: 400px;
 }
