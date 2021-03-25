@@ -9,7 +9,7 @@
 }
 
 /*____________BACKGROUND_________*/
-section 
+.background
 {
     position: relative;
     width: 100%;
@@ -102,4 +102,103 @@ section .star.star8
     {
         transform: scale(2);
     }
+}
+
+/*_________MENU__________*/
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo
+{
+    position: relative;
+    max-width: 150px;
+}
+
+header ul
+{
+position: relative;
+display: flex;
+}
+
+header ul li
+{
+list-style: none;
+}
+
+header ul li a
+{
+display: inline-block;
+color: #ffd366;
+font-weight: 400;
+margin-left: 40px;
+text-decoration: none;
+}
+
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2
+{
+    color: #d97d26;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span
+{
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p
+{
+    color: #d97d26;
+}
+
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #ff0000;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
