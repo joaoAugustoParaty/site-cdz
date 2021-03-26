@@ -37,15 +37,11 @@
     </div>
     </header>
     <div class="content">
-        <div class="textBox1" id="seiya">
-            <h2>Cavaleiro de Bronze<br><span> Seiya de Pegasus</span></h2>
-            <p>Cavaleiro de Bronze da constelação de Pégaso do século XX, incumbido com a missão de proteger a deusa Atena nas Guerras Santas no século XX. Caracterizado principalmente por nunca desistir de lutar em qualquer situação, por mais impossível ou difícil que possa parecer, ele também é a reencarnação do Cavaleiro de Bronze Tenma de Pégaso e do Primeiro Pégaso, o primeiro homem a ferir o Deus Hades nos tempos mitológicos.</p>
-            <a href="#">Learn More</a>
-        </div>
-        <div class="textBox2" id="dragao">
-            <h2>Cavaleiro de Bronze<br><span> Shiryu de Dragão</span></h2>
-            <p>Cavaleiro de Bronze da constelação de Pégaso do século XX, incumbido com a missão de proteger a deusa Atena nas Guerras Santas no século XX. Caracterizado principalmente por nunca desistir de lutar em qualquer situação, por mais impossível ou difícil que possa parecer, ele também é a reencarnação do Cavaleiro de Bronze Tenma de Pégaso e do Primeiro Pégaso, o primeiro homem a ferir o Deus Hades nos tempos mitológicos.</p>
-            <a href="#">Learn More</a>
+        <div class="textBox">
+            <h2 id="cavaleiro">Cavaleiro de Bronze<br></h2>
+            <h1 id="nome"> Seiya de Pegasus</h1>
+            <p id="texto">Cavaleiro de Bronze da constelação de Pégaso do século XX, incumbido com a missão de proteger a deusa Atena nas Guerras Santas no século XX. Caracterizado principalmente por nunca desistir de lutar em qualquer situação, por mais impossível ou difícil que possa parecer, ele também é a reencarnação do Cavaleiro de Bronze Tenma de Pégaso e do Primeiro Pégaso, o primeiro homem a ferir o Deus Hades nos tempos mitológicos.</p>
+            <a href="#">Leia mais</a>
         </div>
             <div class="imgBox">
                 <img src="./img/seiya.png" class="seiya">
@@ -53,11 +49,16 @@
         </div>
     </div>
     <ul class="face">
-        <li><img src="./img/seiya_s_face_by_mikebriceno_d4chpoh-fullview.png" onclick="imgSlider('./img/seiya.png')"></li>
-        <li><img src="./img/shiryu_s_face_by_mikebriceno_d4chq4e-fullview.png" onclick="imgSlider('./img/shiryu.png')" ></li>
-        <li><img src="./img/shun_s_face_by_mikebriceno_d4cm53n-fullview.png" onclick="imgSlider('./img/shun.png')"></li>
-        <li><img src="./img/hyoga_s_face_by_mikebriceno_d4chpty-fullview.png" onclick="imgSlider('./img/Hyoga.png')"></li>
-        <li><img src="./img/ikki-s-face-anime-character-png-clipart.jpg" onclick="imgSlider('./img/ikki.png')"></li>
+
+        <li><img src="./img/seiya_s_face_by_mikebriceno_d4chpoh-fullview.png" onclick="imgSlider('./img/seiya.png'); changeTextSeiya('cavaleiro'); changeTextnomeSeiya('nome'); changeTextColorSeiya('nome'); changeTexttextSeiya('texto'); changeTextColorSeiyatext('texto')"></li>
+
+        <li><img src="./img/shiryu_s_face_by_mikebriceno_d4chq4e-fullview.png" onclick="imgSlider('./img/shiryu.png'); changeTextShiryu('cavaleiro'); changeTextnomeShiryu('nome'); changeTextColorShiryu('nome'); changeTexttextShiryu('texto');changeTextColorShiryutext('texto')"></li>
+
+        <li><img src="./img/shun_s_face_by_mikebriceno_d4cm53n-fullview.png" onclick="imgSlider('./img/shun.png'); changeTextShun('cavaleiro'); changeTextnomeShun('nome'); changeTextColorShun('nome'); changeTexttextShun('texto'); changeTextColorShuntext('texto')"></li>
+
+        <li><img src="./img/hyoga_s_face_by_mikebriceno_d4chpty-fullview.png" onclick="imgSlider('./img/Hyoga.png'); changeTextHyoga('cavaleiro'); changeTextnomeHyoga('nome'); changeTextColorHyoga('nome');changeTexttextHyoga('texto'); changeTextColorHyogatext('texto')"></li>
+
+        <li><img src="./img/ikki-s-face-anime-character-png-clipart.jpg" onclick="imgSlider('./img/ikki.png');changeTextIkki('cavaleiro'); changeTextnomeIkki('nome'); changeTextColorIkki('nome'); changeTexttextIkki('texto'); changeTextColorIkkitext('texto')"></li>
     </ul>
     <ul class="social">
         <li> <a href="#" class="home__social-link"><i class='bx bxl-linkedin'></i></a></li>

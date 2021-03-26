@@ -165,38 +165,42 @@ text-decoration: none;
     align-items: center;
 }
 
-.content .textBox1
+.content .textBox
 {
     position: relative;
     max-width: 600px;
 }
 
-.content .textBox1 h2
+.content .textBox h2
 {
-    color: #d97d26;
+    
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
+    background: linear-gradient(to right, #f9fdfe, #9ac7da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
-.content .textBox1 h2 span
+.content .textBox h1
 {
-    color: #ff0000;
-    font-size: 1.2em;
+    color: #bd0800;
+    font-size: 6em;
     font-weight: 900;
 }
 
-.content .textBox1 p
+.content .textBox p
 {
-    color: #d97d26;
+    color: #fee801;
+    font-weight: 900;
 }
 
-.content .textBox1 a
+.content .textBox a
 {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #ff0000;
+    background: #1ab7f0;
     color: white;
     border-radius: 40px;
     font-weight: 500;
@@ -219,60 +223,7 @@ text-decoration: none;
 }
 
 /*__________DRAGÃO_________*/
-.content .textBox2
-{
-    position: relative;
-    max-width: 600px;
-    display: none;
-}
 
-.content .textBox2 h2
-{
-    color: #d97d26;
-    font-size: 4em;
-    line-height: 1.4em;
-    font-weight: 500;
-    
-}
-
-.content .textBox2 h2 span
-{
-    color: #ff0000;
-    font-size: 1.2em;
-    font-weight: 900;
-}
-
-.content .textBox2 p
-{
-    color: #d97d26;
-}
-
-.content .textBox2 a
-{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background: #ff0000;
-    color: white;
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
-.content .imgBox2
-{
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
-}
-
-.content .imgBox2 img
-{
-    max-width: 400px;
-}
 
 /*___________________FACES_______________*/
 
