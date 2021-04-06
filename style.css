@@ -156,6 +156,20 @@ margin-left: 40px;
 text-decoration: none;
 }
 
+
+
+.menuint {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+  }
+
+.menu .menuint img{
+    width: 20px;
+    height: 20px;
+}
+
 .content
 {
     position: relative;
@@ -282,3 +296,133 @@ display: flex;
     padding-bottom: 5px;
 }
 
+/*____MENU MOBILE______*/
+
+
+@media only screen and (min-width: 783px) and (max-width: 906px) {
+
+.content .imgBox img
+{
+    max-width: 350px;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 400px;
+}
+
+.content .textBox h2
+{
+    
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+    background: linear-gradient(to right, #f9fdfe, #9ac7da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.content .textBox h1
+{
+    color: #bd0800;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+}
+
+@media only screen and (max-width: 783px){
+    .content .imgBox img
+    {
+        max-width: 340px;
+    }
+    
+    .content .textBox
+    {
+        position: relative;
+        max-width: 400px;
+    }
+    
+    .content .textBox h2
+    {
+        
+        font-size: 2em;
+        line-height: 1.4em;
+        font-weight: 500;
+        background: linear-gradient(to right, #f9fdfe, #9ac7da);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .content .textBox h1
+    {
+        color: #bd0800;
+        font-size: 3em;
+        font-weight: 900;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .content{
+        margin: auto;
+        display: inline-flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .content .imgBox img
+    {
+        max-width: 90px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 15px;
+        flex-direction: column;
+        
+        
+    }
+    
+    .content .textBox
+    {
+        position: relative;
+        max-width: 300px;
+    }
+    
+    .content .textBox h2
+    {
+        
+        font-size: 2em;
+        line-height: 1.4em;
+        font-weight: 500;
+        background: linear-gradient(to right, #f9fdfe, #9ac7da);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .content .textBox h1
+    {
+        color: #bd0800;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    .content .textBox p
+{
+    
+    font-size: 0.9em;
+}
+
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: #1ab7f0;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+    
+}
