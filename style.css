@@ -301,6 +301,8 @@ display: flex;
     padding-bottom: 5px;
 }
 
+
+
 /*____MENU MOBILE______*/
 
 
@@ -323,9 +325,7 @@ display: flex;
     font-size: 2em;
     line-height: 1.4em;
     font-weight: 500;
-    background: linear-gradient(to right, #f9fdfe, #9ac7da);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    
 }
 
 .content .textBox h1
@@ -357,9 +357,7 @@ display: flex;
         font-size: 2em;
         line-height: 1.4em;
         font-weight: 500;
-        background: linear-gradient(to right, #f9fdfe, #9ac7da);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        
     }
     
     .content .textBox h1
@@ -402,9 +400,6 @@ display: flex;
         font-size: 2em;
         line-height: 1.4em;
         font-weight: 500;
-        background: linear-gradient(to right, #f9fdfe, #9ac7da);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         margin-left: 15px;
     }
     
@@ -480,5 +475,38 @@ display: flex;
    
     
 }
+
+.menumobile{
+    display: block;
+    
+ 
 }
+
+.menu ul{
+    position:absolute;
+    background-color: #1ab7f0;
+    opacity: 60%;
+    z-index: 10;
+    display: none;
+    margin-top: 10px;
+    width: 280px;
+    
+    
+    
+    
+
+    
+}
+    
+    
+    
+
+    
+}
+
+
+
+
+
+
 
